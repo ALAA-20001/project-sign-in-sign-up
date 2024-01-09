@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #eee;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, #f7f8f7 10%, rgba(18, 153, 0, 0.4) 90%) no-repeat
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    box-shadow: 20px 20px 80px rgb(206, 206, 206)
+}
+
+.h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #71cd14; }
+
+.h4 {
+    font-family: 'Poppins', sans-serif
+}
+
+.input-field {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #1c1349;;
+    color:#182957;
+}
+
+.input-field:hover {
+    color:#71cd14;
+    border: 1px soli #71cd14;
+}
+
+input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    padding: 0px 2px;
+    font-family: 'Poppins', sans-serif
+}
+
+
+a{
+color: #71cd14;
+text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color:#71cd14;
+}
+
+
+.btn.btn-block {
+    border-radius: 20px;
+    background-color:#71cd14;
+    color: #fff
+}
+
+.btn.btn-block:hover {
+    background-color:#71cd14;
+}
+
+@media(max-width: 575px) {
+    .wrapper {
+        margin: 10px
+    }
+}
+
+@media(max-width:424px) {
+    .wrapper {
+        padding: 30px 10px;
+        margin: 5px
+    }
+
+    
+    
+
+
+   
+}
